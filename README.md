@@ -13,6 +13,7 @@
 <pre>
   var msg = "oii! 🐶";
   msg = emojione.toShort(msg);
+  alert(msg);
 </pre>
 
 <p>Agora fazemos a decodficação</p>
@@ -41,3 +42,4 @@
 </pre>
 <p>Perceba que decodificamos no retorno do Ajax </p>
 <p>Viu só como é simples fazer isso com a biblioteca EmojiOne</p>
+<h3>Eu não coloquei o codigo php e nem o sql, pois isso será feito por você, acredito que você saiba como faz isso, lógicamente não fique preso somente no meu cod, tenta ler mais sobre a bibliotaca.</p>
