@@ -21,13 +21,14 @@
      $.ajax({
          url :"Arquivo php ",
          type : 'post',
-            data : {
+            data :
+            {
               "F": "EnviandoMsg",
-               "msg": msg
+              "msg": msg
             },
           }).done (function(retorno){
-               var msg = emojione.shortnameToUnicode(retorno); //msg decodificada 
-              alert(msg);
+            var msg_decodificada = emojione.shortnameToUnicode(retorno); //msg decodificada 
+           alert(msg_decodificada);
        });
 </pre>
 <p>Perceba que decodificamos no retorno do Ajax </p>
