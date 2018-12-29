@@ -14,6 +14,14 @@
   var msg = "oii! 🐶";
   msg = emojione.toShort(msg);
 </pre>
+
+<p>Agora fazemos a decodficação</p>
+<pre>
+  var msg = emojione.shortnameToUnicode(msg); //msg decodificada 
+  alert(msg);
+</pre>
+
+<h3>Ex.: com ajax</h3>
 <p>Este dado codificado armazenado na variavel (msg) pode ser passado sem problema nenhum, para um Ajax ou Axios entre outros tipos.</p>
 <pre>
    var msg = "oii! 🐶";
