@@ -16,7 +16,8 @@
 </pre>
 <p>Este dado codificado armazenado na variavel (msg) pode ser passado sem problema nenhum, para um Ajax ou Axios entre outros tipos.</p>
 <pre>
-
+   var msg = "oii! 🐶";
+   msg = emojione.toShort(msg);
      $.ajax({
          url :"Arquivo php ",
          type : 'post',
@@ -30,3 +31,4 @@
        });
 </pre>
 <p>Perceba que decodificamos no retorno do Ajax </p>
+<p>Viu só como é simples fazer isso com a biblioteca EmojiOne</p>
