@@ -11,6 +11,22 @@
 ```
 <p>Feito isso vamos fazer nossa codificação</p>
 <pre>
- var msg = "oii! 🐶";
- var msg = emojione.toShort(msg);
+  var msg = "oii! 🐶";
+  msg = emojione.toShort(msg);
 </pre>
+<p>Este dado codificado armazenado na variavel (msg) pode ser passado sem problema nenhum, para um Ajax ou Axios entre outros tipos.</p>
+<pre>
+
+     $.ajax({
+         url :"Arquivo php ",
+         type : 'post',
+            data : {
+              "F": "EnviandoMsg",
+               "msg": msg
+            },
+          }).done (function(retorno){
+               var msg = emojione.shortnameToUnicode(retorno); //msg decodificada 
+              alert(msg);
+       });
+</pre>
+<p>Perceba que decodificamos no retorno do Ajax </p>
