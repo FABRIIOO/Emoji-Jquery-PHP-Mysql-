@@ -6,6 +6,6 @@
 <pre>
  <span><head></span>
    <span><script src="https://cdn.jsdelivr.net/npm/emojione@4.0.0/lib/js/emojione.min.js"></script></span>
-   <span><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emojione@4.0.0/extras/css/emojione.min.css"/></span> 
+   <p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emojione@4.0.0/extras/css/emojione.min.css"/></p> 
   <span></head></span> 
 </pre>
